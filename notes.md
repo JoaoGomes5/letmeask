@@ -3,9 +3,28 @@
   - React
     - Create a react app boilerplate with Typescript
       - `yarn create react-app letmeask --template typescript`
+      - Project Structure created
+    - Fast refresh
+    - Multi platform develpoment
+      - React-Dom for web
+    - Components
+    - Named export
+    - Propreties
+        - Declare on typescript the props type
+        - Receive on Components params 
+            - `function MyFunction(props)`
+    - States
+        - Value in component that can be modified
+            - `const [counter, setCounter] = useState(initialValue)`
+    - Immutability
+        - A value can`t change
   - Typescript
       - Vantagens
-          - Trabalho em equipa
-          - Melhor manutenção
+          - Team work
+          - Maintenance
+      - TSX -> Typescript + HTML
   - Fire Base
+      - Authentication
+      - Real Time Database
+          - SQL Database
 
