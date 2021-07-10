@@ -1,4 +1,51 @@
-# Getting Started with Create React App
+
+<h1 align="center">
+  Welcome to Letmeask 👋
+</h1>
+<h1 align="center">
+ <img alt="PlantManager" height="100" title="" src="https://i.imgur.com/i9bqAqi.png" />
+</h1>
+
+<p align="center">
+
+ <img src="https://i.imgur.com/XJ3Z941.png" alt="APP"/>
+</p>
+
+
+
+## 💻 Project
+- [X] Under construction 🚧
+
+## 🔨 Features
+
+- [X] Under construction 🚧
+
+
+## ✨ Technologies
+
+- [X] React 
+- [X] Typescript
+- [X] Firebase
+- [X] Hooks
+- [X] useContext API
+
+## 🔖 Layout
+
+You can view the project layout through [this link](https://www.figma.com/file/07JI6QTcEeKFyqT8Y3JqMG/Letmeask). You must have an account on [Figma](http://figma.com/) to access it.
+
+
+## Running the project
+
+Clone the repository
+
+- [X] Under construction 🚧
+
+<br>
+<br>
+<br>
+<h1>
+ Getting Started with Create React App
+</h1>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
