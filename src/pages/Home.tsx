@@ -14,7 +14,7 @@ export function Home(){
   const history = useHistory();
   const { signInWithGoogle , user} = useAuth()
 
-  async function handleCreateRoom() {
+  async function handleSignIn() {
     if(!user) {
       await signInWithGoogle()
     }
@@ -33,7 +33,7 @@ export function Home(){
         <div className="main-content">
           <img src={logoImg} alt="Letmeask" />
           <button 
-            onClick={handleCreateRoom}
+            onClick={handleSignIn}
             className="create-room"
           >
             <img src={googleImg} alt="Google" />
