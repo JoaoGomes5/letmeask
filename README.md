@@ -14,12 +14,12 @@
 
 
 ## 💻 Project
-- [X] Under construction 🚧
+🧑‍🎓 A questions app so that you never get lost again when your students are asking questions ❓
 
 ## 🔨 Features
 
-- [X] Under construction 🚧
-
+- [X] Sign in with Google
+- [ ] Create Room
 
 ## ✨ Technologies
 
