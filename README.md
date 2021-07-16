@@ -21,13 +21,22 @@
 - [X] Sign in with Google
 - [ ] Create Room
 
+
+
 ## ✨ Technologies
 
 - [X] React 
 - [X] Typescript
 - [X] Firebase
+- [ ] Migrated to Supabase
+    - [ ] Refactor Questions List : https://supabase.io/docs/reference/javascript/subscribe
 - [X] Hooks
+    - useAuth()
+    - useRoom()
 - [X] useContext API
+- [ ] React Hot Toast
+- [ ] Page components
+- [ ] Styled Compontents
 
 ## 🔖 Layout
 
