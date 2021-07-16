@@ -72,12 +72,12 @@ export function Room(){
       
       toast.success('Question sented!', {
         style: {
-          border: '1px solid #835afd',
+          border: '1px solid #991F36',
           padding: '16px',
-          color: '#835afd',
+          color: '#991F36',
         },
         iconTheme: {
-          primary: '#835afd',
+          primary: '#991F36',
           secondary: '#FFFAEE',
         },
       });

@@ -36,6 +36,7 @@
 - [X] useContext API
 - [ ] React Hot Toast
   - [X] On Create Question
+  - [X] On Join Room that not exists
 - [ ] Page components
 - [ ] Styled Compontents
 
