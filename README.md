@@ -31,8 +31,8 @@
 - [ ] Migrated to Supabase
     - [ ] Refactor Questions List : https://supabase.io/docs/reference/javascript/subscribe
 - [X] Hooks
-    - useAuth()
-    - useRoom()
+    - [X] useAuth()
+    - [ ] useRoom()
 - [X] useContext API
 - [ ] React Hot Toast
 - [ ] Page components
