@@ -1,7 +1,7 @@
 
 import { FormEvent, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
-
+import toast, { Toaster } from 'react-hot-toast';
 
 
 import { database } from '../services/firebase';
@@ -14,6 +14,7 @@ import logoImg from '../assets/images/logo.svg'
 
 import '../styles/room.scss'
 import { useEffect } from 'react';
+
 
 type Questions = Record<string, {
   author: {
@@ -68,8 +69,20 @@ export function Room(){
         isHighlighted: false,
         isAnswered: false
       }
-
+      
+      toast.success('Question sented!', {
+        style: {
+          border: '1px solid #835afd',
+          padding: '16px',
+          color: '#835afd',
+        },
+        iconTheme: {
+          primary: '#835afd',
+          secondary: '#FFFAEE',
+        },
+      });
       await database.ref(`rooms/${id}/questions`).push(question);
+
 
       setNewQuestion('')
   }
@@ -99,6 +112,7 @@ export function Room(){
   return (
     <div id="page-room">
      <header>
+        
         <div className="content">
           <img src={logoImg} alt="Letmeask" />
           <RoomCode 
@@ -141,6 +155,11 @@ export function Room(){
             >
               Send question
             </Button>
+            <Toaster
+              toastOptions={{
+                duration: 2000
+              }}
+            />
 
           </div>
         </form>
