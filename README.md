@@ -35,7 +35,7 @@
     - [ ] useRoom()
 - [X] useContext API
 - [ ] React Hot Toast
-  - [X] On Create Romm
+  - [X] On Create Question
 - [ ] Page components
 - [ ] Styled Compontents
 
